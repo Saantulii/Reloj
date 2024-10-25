@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reloj con Fecha y Alarmas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="clock-container">
+  <div id="date" class="date">Día: </div>
+  <div class="clock" id="clock">00:00:00</div>
+
+  <form class="alarm-form" id="alarmForm">
+    <label for="alarmTime">Establecer alarma:</label>
+    <input type="time" id="alarmTime" required>
+    <button type="submit">Agregar Alarma</button>
+  </form>
+
+  <div class="alarm-list" id="alarmList"></div>
+
+  <footer>
+    <a href="https://saantulii.github.io/Mylife/" target="_blank"><p>© 2024 Saantulii</p></a>
+</footer>
+
+<script src="NODE.js"></script>
+
+
+</div>
+
+</body>
+</html>

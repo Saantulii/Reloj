@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+  }
+  
+  .clock-container {
+    text-align: center;
+  }
+  
+  .date {
+    font-size: 54px;
+    margin-bottom: 10px;
+  }
+  
+  .clock {
+    color: yellow;
+    font-size: 128px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .alarm-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .alarm-form input,
+  .alarm-form button {
+    font-size: 18px;
+    padding: 8px;
+  }
+  
+  .alarm-list {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .alarm-message {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffcccb;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer; /* Mostrar que es clickeable */
+    z-index: 1000;
+  }
+
+  footer {
+    background-color: gray;
+    width: 100%;
+    text-align: center; /* Centrar el texto */
+    margin-top: 5%; /* Espacio encima del pie de página */
+    font-size: 25px; /* Tamaño de fuente */
+    color: #666; /* Color del texto */
+    height: auto;
+}
+
+footer p{
+    color: black;
+}
+
+footer a {
+    background-color: gray;
+    color: black; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
